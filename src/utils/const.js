@@ -1,2 +1,2 @@
 export const baseUrl = "/"
-export const backendBaseUrl = "http://localhost:8080/"
+export const backendBaseUrl = "https://quickchip-utec.azurewebsites.net/"

@@ -12,6 +12,7 @@ import { baseUrl } from './utils/const';
 const routes = [
   {
     path: baseUrl, children: [
+        {path: "/", element: <Navigate to="app/images"/>},
         {
           path: '/app', element: <DashboardLayout/>, children :[
             {
